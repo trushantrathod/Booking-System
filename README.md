@@ -54,8 +54,8 @@ npm install
 Create a Firebase project at Firebase Console.
 Enable email/password authentication.
 Copy your Firebase configuration and add it to frontend/src/firebaseConfig.js.
-4. Install Frontend Dependencies:
 
+4. Install Frontend Dependencies:
 cd ../frontend
 npm install
 Run the Backend:
