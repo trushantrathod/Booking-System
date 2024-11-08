@@ -1,0 +1,145 @@
+/* frontend/src/App.css */
+
+/* App container centers the main content on the page */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  position: relative;
+  background-color: rgb(123, 123, 123);
+}
+
+/* Header styling for positioning title and navigation */
+.header {
+  width: 95%;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+/* Title styling, positioned to the top-left */
+.title {
+  color: #2a2a2a;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Nav links positioned to the top-right */
+.nav {
+  color: #778a50;
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+/* Styling for nav links */
+.nav-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000000d1;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Centered form styling */
+.form-container {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+/* Form input fields with larger font */
+.form-input {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form button styling */
+.form-button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+/* App.css */
+
+/* Center the login form and increase font size */
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.auth-container h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Style the input fields to be larger */
+.auth-container input {
+  font-size: 1.1rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Style the button to be larger and centered */
+.auth-container button {
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.auth-container p {
+  font-size: 1rem;
+  color: red;
+  margin-top: 1rem;
+}
+
