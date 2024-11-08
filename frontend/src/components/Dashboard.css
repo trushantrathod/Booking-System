@@ -1,0 +1,28 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-container {
+    margin: 20px 0;
+}
+
+.bookings {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.booking-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.edit-booking {
+    margin-top: 20px;
+}
